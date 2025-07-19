@@ -1,6 +1,6 @@
 ---
 layout: post
-title: DIY｜Mac 搭建 ESP-IDF 开发环境及编译小智 AI
+title: DIY｜Mac testnote dwy AI
 categories: [DIY]
 description: 使用 Mac 烧录小智 AI
 keywords: DIY, 小智AI, 烧录, Mac, MacBook, ESP32
@@ -12,13 +12,7 @@ mindmap: false
 mindmap2: false
 ---
 
-前一阵子在百度 AI 开发者大会上，看到基于小智 AI DIY 玩具的演示，感觉有点意思，想着自己也来试试。
-
-如果只是想烧录现成的固件，乐鑫官方除了提供了 Windows 版本的 [Flash 下载工具][1] 之外，还提供了基于网页版的 [ESP LAUNCHPAD][2]，按照说明在 Mac 上也可以使用。
-
-而我想着后期做一些定制，所以还是需要在 Mac 上搭建 ESP-IDF 开发环境，自己编译和烧录固件。而这个在 [小智 AI 聊天机器人百科全书][3] 中没有详细提及，所以我就记录一下搭建过程，供有需要的朋友参考。
-
-先上一个跑起来后的效果：
+dwy note test change
 
 ![](/images/posts/ai/xiaozhi-ai.jpg)
 
