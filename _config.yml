@@ -1,19 +1,19 @@
 # ---------------- #
 #   Main Configs   #
 # ---------------- #
-baseurl:
-url: https://mazhuang.org
+baseurl: /dwynote
+url: https://bjae.github.io/dwynote
 date_format: "ordinal"
-title: 码志
-subtitle: "公众号：闷骚的程序员"
-description: "马壮的个人博客，公众号：闷骚的程序员"
-keywords: 码志, Zhuang Ma, mzlogin, mazhuang, 闷骚的程序员
+title: "你的网站标题"
+subtitle: "你的网站副标题"
+description: "一个属于你的新博客。"
+keywords: blog, jekyll
 timezone: Asia/Shanghai
 encoding: "utf-8"
 # 页面左下角显示的年份
-since: 2015
+since: 2025
 # 源码仓库，请替换成自己的
-repository: mzlogin/mzlogin.github.io
+repository: bjae/dwynote
 # 对 css 和 js 资源的 cdn 加速配置
 cdn:
     jsdelivr:
@@ -28,7 +28,7 @@ components:
     # 不蒜子访问统计
     busuanzi:
         enabled: false
-        start_date: 2020-05-03
+        start_date: 2025-07-19
     # My Popular Repositories
     side_bar_repo:
         enabled: true
@@ -39,8 +39,8 @@ components:
     # 页面右上角，以及「关于」页面的二维码
     # 修改图片请替换 assets/images/qrcode.jpg
     qrcode:
-        enabled: true
-        image_alt: 闷骚的程序员
+        enabled: false
+        image_alt: "你的二维码"
     # 维基索引页使用哪种视图，支持 列表（list）/分类（cate）
     wiki:
         view: cate
@@ -57,12 +57,12 @@ highlight_theme: github
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: Zhuang Ma
-organization: 
-organization_url: 
-github_username: mzlogin
-location: Wuhan, China
-email: chumpma@gmail.com
+author: "bjae"
+organization:
+organization_url:
+github_username: bjae
+location: "你的城市"
+email: "your-email@example.com"
 
 # ---------------- #
 #    Navigation    #
@@ -134,7 +134,9 @@ highlighter: rouge
 paginate: 10
 lsi: false
 quiet: false
-excerpt_separator: "\n\n"
+excerpt_separator: "
+
+"
 permalink: /:year/:month/:day/:title/
 plugins:
     - jekyll-github-metadata
@@ -162,32 +164,32 @@ comments_provider: giscus
 # !!!Important!!! Please modify infos below to yours
 # disqus 配置参考：https://disqus.com
 disqus:
-    username: 
+    username: "" # 替换为你自己的 disqus username
 # gitment 配置参考：https://imsun.net/posts/gitment-introduction/
 gitment:
-    owner: mzlogin
-    repo: blog-comments
+    owner: bjae
+    repo: dwynote-comments # 替换为你自己的评论仓库
     oauth:
-        client_id: d2e1cbbd298958076462
-        client_secret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
+        client_id: "" # 替换
+        client_secret: "" # 替换
 # gitalk 配置参考：https://github.com/gitalk/gitalk#install
 gitalk:
-    owner: mzlogin
-    repo: blog-comments
-    clientID: d2e1cbbd298958076462
-    clientSecret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
+    owner: bjae
+    repo: dwynote-comments # 替换为你自己的评论仓库
+    clientID: "" # 替换
+    clientSecret: "" # 替换
 # utterances 配置参考：https://utteranc.es/
 utterances:
-    repo: mzlogin/blog-comments
+    repo: "bjae/dwynote-comments" # 替换为你自己的评论仓库
 # beaudar 配置参考：https://beaudar.lipk.org/
 beaudar:
-    repo: mzlogin/blog-comments
+    repo: "bjae/dwynote-comments" # 替换为你自己的评论仓库
 # giscus 配置参考：https://giscus.app/zh-CN
 giscus:
-    repo: mzlogin/blog-comments
-    repo-id: MDEwOlJlcG9zaXRvcnk5MzEyNzkxNw==
+    repo: "bjae/dwynote-comments" # 替换为你自己的评论仓库
+    repo-id: "" # 替换
     category: Announcements
-    category-id: DIC_kwDOBY0E7c4CRtg9
+    category-id: "" # 替换
 # 在使用其它评论组件时可点击显示 Disqus
 lazy_load_disqus : false
 
@@ -204,11 +206,11 @@ simple_jekyll_search:
 #      Google      #
 # ---------------- #
 google:
-    analytics_id: # G-20FLEG5Q2W
+    analytics_id: "" # 替换
     adsense:
-        enabled: true
-        footer: true
-        sidebar: true
-        sidebar-detail: true
+        enabled: false
+        footer: false
+        sidebar: false
+        sidebar-detail: false
         content_header: false
         content_footer: false
